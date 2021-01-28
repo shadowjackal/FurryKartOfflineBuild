@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"auth","path":"scripts/auth/auth.yy",},"order":0,},
     {"id":{"name":"spr_item_box_gui","path":"sprites/spr_item_box_gui/spr_item_box_gui.yy",},"order":5,},
     {"id":{"name":"obj_item_diamond","path":"objects/obj_item_diamond/obj_item_diamond.yy",},"order":6,},
     {"id":{"name":"colmesh","path":"scripts/colmesh/colmesh.yy",},"order":2,},
@@ -59,6 +60,7 @@
     {"folderPath":"folders/ColMesh.yy","order":16,"resourceVersion":"1.0","name":"ColMesh","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/ColMesh/ColMesh Scripts.yy","order":1,"resourceVersion":"1.0","name":"ColMesh Scripts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/ColMesh/ColMesh Scripts/Supplementary scripts.yy","order":1,"resourceVersion":"1.0","name":"Supplementary scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/net.yy","order":2,"resourceVersion":"1.0","name":"net","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
