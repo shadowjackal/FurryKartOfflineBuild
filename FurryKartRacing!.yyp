@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"spr_item_box_gui","path":"sprites/spr_item_box_gui/spr_item_box_gui.yy",},"order":5,},
     {"id":{"name":"obj_item_diamond","path":"objects/obj_item_diamond/obj_item_diamond.yy",},"order":6,},
-    {"id":{"name":"obj_conn","path":"objects/obj_conn/obj_conn.yy",},"order":7,},
     {"id":{"name":"colmesh","path":"scripts/colmesh/colmesh.yy",},"order":2,},
     {"id":{"name":"spr_player_test","path":"sprites/spr_player_test/spr_player_test.yy",},"order":0,},
     {"id":{"name":"road","path":"objects/road/road.yy",},"order":4,},
