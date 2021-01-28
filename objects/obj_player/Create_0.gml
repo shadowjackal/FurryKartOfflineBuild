@@ -19,6 +19,7 @@ boost_stop = 0;
 item = 0;
 z_angle = 0;
 ground = 0;
+rtatelimit = 15;
 
 var _matrix_translate =        matrix_build(0,0, 0,            0,0,0,                1,1,1);
 var _matrix_rotate =            matrix_build(0,0,0,                                 0,0,90,      1,1,1);
