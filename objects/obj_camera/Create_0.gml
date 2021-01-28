@@ -1,6 +1,6 @@
 /// @description vertex buffers and other useful stuff
 audio_stop_all();
-audio_play_sound(FurryKart_Racing_Ver_3,1,true);
+//audio_play_sound(FurryKart_Racing_Ver_3,1,true);
 
 
 //this area is for the set up for 3d camera and drawing objects
