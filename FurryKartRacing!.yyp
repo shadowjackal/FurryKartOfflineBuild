@@ -20,6 +20,7 @@
     {"id":{"name":"spr_fence","path":"sprites/spr_fence/spr_fence.yy",},"order":4,},
     {"id":{"name":"spr_road_edge","path":"sprites/spr_road_edge/spr_road_edge.yy",},"order":2,},
     {"id":{"name":"road_edge","path":"objects/road_edge/road_edge.yy",},"order":5,},
+    {"id":{"name":"net","path":"scripts/net/net.yy",},"order":2,},
     {"id":{"name":"colmesh_create_debug_vbuffers","path":"scripts/colmesh_create_debug_vbuffers/colmesh_create_debug_vbuffers.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
