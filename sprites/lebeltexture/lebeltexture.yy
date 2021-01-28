@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f9080433-0a37-4054-ba1d-08247ede1c5b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "FurryKartRacing!",
-    "path": "FurryKartRacing!.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "lebeltexture",
