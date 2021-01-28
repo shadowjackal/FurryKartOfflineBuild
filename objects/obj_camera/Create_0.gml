@@ -26,6 +26,6 @@ vb_player = vertex_create_buffer();
 vb_player = load_obj("furrykart.obj","furrykart.mtl");
 
 vb_level = vertex_create_buffer();
-vb_level = load_obj("lebeltest.obj");
+vb_level = load_obj("lebeltest.obj","lebeltest.mtl");
 
 

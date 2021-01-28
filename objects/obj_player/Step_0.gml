@@ -90,9 +90,10 @@ if (col[6]) //If we’re touching ground
 
 
   #endregion
-var grv = -0.25;
+var grv = -0.15;
 if zsp < -5 zsp = -5;
 if ground = 0 zsp -= grv;
+if ground = 1 zsp = 0;
 //applies movement
 x += hsp;
 y += vsp;

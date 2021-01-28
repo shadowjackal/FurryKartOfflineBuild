@@ -9,6 +9,7 @@
     {"id":{"name":"any","path":"scripts/any/any.yy",},"order":0,},
     {"id":{"name":"load_obj","path":"scripts/load_obj/load_obj.yy",},"order":1,},
     {"id":{"name":"sh_colmesh_debug","path":"shaders/sh_colmesh_debug/sh_colmesh_debug.yy",},"order":2,},
+    {"id":{"name":"lebeltexture","path":"sprites/lebeltexture/lebeltexture.yy",},"order":18,},
     {"id":{"name":"par_solid","path":"objects/par_solid/par_solid.yy",},"order":0,},
     {"id":{"name":"colmesh_shapes","path":"scripts/colmesh_shapes/colmesh_shapes.yy",},"order":3,},
     {"id":{"name":"FurryKart_Racing_Ver_3","path":"sounds/FurryKart_Racing_Ver_3/FurryKart_Racing_Ver_3.yy",},"order":17,},
@@ -70,6 +71,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"itemdiamond.obj","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"itemdiamond.mtl","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"furrykart.obj","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"lebeltest.mtl","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",

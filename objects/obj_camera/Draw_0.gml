@@ -20,7 +20,7 @@ camera_apply(camera);
 
 #region World Matrix Build wall
 //Order matters because of the way translations are handled (centered on 0,0)
-var _matrix_translate =        matrix_build(obj_player.x,obj_player.y, obj_player.z,            0,0,0,                1,1,1);
+var _matrix_translate =        matrix_build(obj_player.x,obj_player.y, obj_player.z+48,            0,0,0,                1,1,1);
 var _matrix_rotate =            matrix_build(0,0,0,                                -obj_player.z_angle + 90,0,obj_player.r_angle-90,      1,1,1);
 var _matrix_scale =                matrix_build(0,0,0,                                0,0,0,                16,16,16);
 var _matrix_sr =                    matrix_multiply(_matrix_scale,_matrix_rotate);
@@ -40,7 +40,7 @@ var _matrix_sr =                    matrix_multiply(_matrix_scale,_matrix_rotate
 var _matrix_final =                matrix_multiply(_matrix_sr,_matrix_translate);
 
 matrix_set(matrix_world,_matrix_final);
-vertex_submit(vb_level,pr_trianglelist,-1);
+vertex_submit(vb_level,pr_trianglelist,sprite_get_texture(lebeltexture,0));
 matrix_set(matrix_world,matrix_build_identity());
 #endregion
 
