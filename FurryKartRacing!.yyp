@@ -23,6 +23,7 @@
     {"id":{"name":"net","path":"scripts/net/net.yy",},"order":2,},
     {"id":{"name":"colmesh_create_debug_vbuffers","path":"scripts/colmesh_create_debug_vbuffers/colmesh_create_debug_vbuffers.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
+    {"id":{"name":"obj_conn","path":"objects/obj_conn/obj_conn.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
