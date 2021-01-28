@@ -13,8 +13,8 @@
   "soundFile": "FurryKart_Racing_Ver_3.mp3",
   "duration": 94.22865,
   "parent": {
-    "name": "FurryKartRacing!",
-    "path": "FurryKartRacing!.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "FurryKart_Racing_Ver_3",
