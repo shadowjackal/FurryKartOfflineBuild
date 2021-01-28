@@ -16,11 +16,11 @@ if (action = 1 || action = 2) trnacc = 1.5;
 
 //movement and attack/drifting
 if key_drft && key_l && spd != 0 action = 1 else if key_drft && key_r && spd != 0 action = 2 else action = 0;
-if key_l && action != 2 && spd != 0 angle += trnacc;
-if key_r && action != 1 && spd != 0 angle -= trnacc;
 if key_acc && !key_back spd += acc;
 if key_acc && key_back spd -= acc;
 #endregion
+
+angle += plusratate/8;
 
 if spd > 0 spd -= dcc;
 if spd < 0 spd += dcc;
@@ -34,15 +34,20 @@ if (action = 1 || action = 2) && spd < -mxspddrft spd = -mxspddrft;
 
 #region player render angle
 //changes player angle when you drift
-if action = 0 && !key_l && !key_r r_angle = angle;
-if action = 1 && spd != 0 r_angle = angle + 10;
-if action = 2 && spd != 0 r_angle = angle - 10;
 
-//when you turn changes angle
-if action = 0 && spd != 0 && key_l && !key_r r_angle = angle + 5;
-if action = 0 && spd != 0 && !key_l && key_r r_angle = angle - 5;
+if action = 1 && spd != 0 plusratate += 2;
+if action = 2 && spd != 0 plusratate -= 2;
+r_angle = plusratate + angle;
+//when you turn changes angle1
+if action = 0 && spd != 0 && key_l && !key_r plusratate += 1.5;
+if action = 0 && spd != 0 && !key_l && key_r plusratate -= 1.5;
 #endregion 
-
+if action = 0 && plusratate > rtatelimit plusratate = rtatelimit;
+if action = 0 && plusratate < -rtatelimit plusratate = -rtatelimit;
+if (action = 1 || action = 2) && plusratate > rtatelimitdrift plusratate = rtatelimitdrift;
+if (action = 1 || action = 2) && plusratate < -rtatelimitdrift plusratate = -rtatelimitdrift;
+if plusratate > 0 && !key_r && action = 0 plusratate -= rtate_dcc;
+if plusratate < 0 && !key_l && action = 0 plusratate += rtate_dcc;
 if (action = 1 || action = 2) chargeup = 1 else chargeup = 0;
 if chargeup = 0 alarm[0] = 100;
 
