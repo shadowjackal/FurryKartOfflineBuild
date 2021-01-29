@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-username = "NBTM";
-
 acc = 0.5;
 dcc = 0.125;
 trnacc = 1.5;
@@ -35,5 +33,5 @@ var M = matrix_multiply(matrix_build(0, 0, 0, 90, 0, 0, 1, 1, -1), _matrix_final
 
 levelColmesh = new colmesh();
 levelColmesh.addMesh("lebeltest.obj", M);
-var regionSize = 1000; //120 is a magic number I chose that fit well for my player size and level complexity. It may have to be different for your game!
+var regionSize = 4000; //120 is a magic number I chose that fit well for my player size and level complexity. It may have to be different for your game!
 levelColmesh.subdivide(regionSize);
