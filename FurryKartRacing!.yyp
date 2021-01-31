@@ -4,6 +4,7 @@
     {"id":{"name":"obj_item_diamond","path":"objects/obj_item_diamond/obj_item_diamond.yy",},"order":6,},
     {"id":{"name":"colmesh","path":"scripts/colmesh/colmesh.yy",},"order":2,},
     {"id":{"name":"spr_player_test","path":"sprites/spr_player_test/spr_player_test.yy",},"order":0,},
+    {"id":{"name":"obj_conn","path":"objects/obj_conn/obj_conn.yy",},"order":7,},
     {"id":{"name":"road","path":"objects/road/road.yy",},"order":4,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":1,},
     {"id":{"name":"any","path":"scripts/any/any.yy",},"order":0,},
@@ -20,6 +21,7 @@
     {"id":{"name":"spr_fence","path":"sprites/spr_fence/spr_fence.yy",},"order":4,},
     {"id":{"name":"spr_road_edge","path":"sprites/spr_road_edge/spr_road_edge.yy",},"order":2,},
     {"id":{"name":"road_edge","path":"objects/road_edge/road_edge.yy",},"order":5,},
+    {"id":{"name":"auth","path":"scripts/auth/auth.yy",},"order":0,},
     {"id":{"name":"colmesh_create_debug_vbuffers","path":"scripts/colmesh_create_debug_vbuffers/colmesh_create_debug_vbuffers.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -58,6 +60,7 @@
     {"folderPath":"folders/ColMesh.yy","order":16,"resourceVersion":"1.0","name":"ColMesh","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/ColMesh/ColMesh Scripts.yy","order":1,"resourceVersion":"1.0","name":"ColMesh Scripts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/ColMesh/ColMesh Scripts/Supplementary scripts.yy","order":1,"resourceVersion":"1.0","name":"Supplementary scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/net.yy","order":2,"resourceVersion":"1.0","name":"net","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
